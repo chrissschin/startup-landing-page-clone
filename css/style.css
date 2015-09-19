@@ -8,18 +8,17 @@ html {
 
 body {
   background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
 }
 
 div {
   border: 1px solid chocolate;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #838994;
-  letter-spacing: 0.03em;
-}
+
 
 a:visited, a:link, a:active {
   text-decoration: none;
@@ -30,16 +29,36 @@ a:hover {
   color: black;
 }
 
+button {
+  width: 9.688rem;
+  background-color: #f15a29;
+  border-color:#f15a29;
+  text-shadow: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.25rem;
+}
+
+button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+}
+
 /** Navigation Sec **/
+
+.content {
+  padding: 0 15px;
+  width:970px;
+  margin: 0 auto;
+}
 
 .top-navigation {
   background-color: #fff;
 }
 
 .top-navigation > .content {
-  width:970px;
   height: 70px;
-  margin: 0 auto;
 }
 
 .top-navigation .links .active {
@@ -76,6 +95,22 @@ a:hover {
   margin-left: 1.563rem;
 }
 
-.content {
-  padding: 0 15px;
+/** INTRODUCTION Section ***************/
+
+.introduction {
+  background-image: url("../images/first-background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  overflow: auto;
+  height: 45.938rem;
+
+}
+
+
+.introduction h1 {
+  margin-top: 17.5rem;
+}
+
+.introduction h1, .introduction h3, .introduction .buttons {
+  text-align: center;
 }
