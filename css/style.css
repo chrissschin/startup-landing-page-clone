@@ -18,9 +18,9 @@ body {
 
 }
 
-div {
+/*div {
   border: 1px solid chocolate;
-}
+}*/
 
 
 
@@ -48,6 +48,12 @@ button:hover {
   background-color: #d9400e;
   border-color: #cf3d0e;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 
 /** Navigation Sec **/
 
@@ -142,7 +148,7 @@ button:hover {
 }
 
 .cases h2, .devices h3 {
-  color: #1d1e21
+  color: #1d1e21;
 }
 
 .cases h2 {
@@ -157,7 +163,7 @@ button:hover {
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     box-sizing: border-box;
     text-align: center;
 }
@@ -170,4 +176,47 @@ button:hover {
   font-weight:400;
   font-size: 1.5rem;
   margin:2.5rem 0 1.8rem
+}
+
+/** Footer Section ***************/
+
+.social h5 {
+  font-weight:400;
+  font-size: 100%;
+  color:#1d1e21;
+}
+
+footer .content {
+  border-top: 1px solid #eaebec;
+  text-align: center;
+  padding-bottom: 9rem;
+}
+
+footer .social-icons > li {
+  width: 2.5rem;
+  height: 2.5rem;
+  display:inline-block;
+  border: 1px solid #eaebec;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+
+.social-icons .twitter {
+  color:#55acee;
+}
+
+.social-icons .facebook {
+  color:#4c66a4;
+}
+
+.social-icons .insta-g {
+  color: #3f729b;
+}
+
+.social span {
+  color: #838994;
+  font-weight: 300;
+  font-size: .9rem;
 }
